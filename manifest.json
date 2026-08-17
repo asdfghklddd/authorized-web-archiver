@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Authorized Web Archiver — Local Demo",
+  "version": "1.0.0",
+  "description": "Archives a user-selected localhost demo page to a local SQLite database.",
+  "permissions": ["activeTab", "scripting", "nativeMessaging"],
+  "background": {
+    "service_worker": "extension/service-worker.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Archive this authorized demo page"
+  }
+}

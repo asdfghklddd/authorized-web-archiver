@@ -1,0 +1,11 @@
+{
+  "name": "authorized-web-archiver",
+  "version": "1.0.0",
+  "description": "A localhost-only, consent-driven browser archiving reference implementation.",
+  "type": "module",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "dev.andy.authorized_web_archiver",
+  "description": "Local storage host for the Authorized Web Archiver demo",
+  "path": "ABSOLUTE_PATH_TO_A_NATIVE_HOST_LAUNCHER",
+  "type": "stdio",
+  "allowed_origins": ["chrome-extension://REPLACE_WITH_UNPACKED_EXTENSION_ID/"]
+}

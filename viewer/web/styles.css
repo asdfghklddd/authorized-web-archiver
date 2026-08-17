@@ -1,0 +1,26 @@
+:root {
+  color-scheme: light;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  color: #12232f;
+  background: #eef2ed;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; }
+main { width: min(1180px, calc(100% - 40px)); margin: 0 auto; padding: 64px 0; }
+header { max-width: 720px; margin-bottom: 38px; }
+h1 { margin: 8px 0 14px; font-size: clamp(40px, 7vw, 76px); line-height: .96; letter-spacing: -.055em; }
+h2 { margin: 8px 0; font-size: 30px; letter-spacing: -.03em; }
+.eyebrow { color: #28715d; font-size: 12px; font-weight: 800; letter-spacing: .14em; }
+.lede, .source { color: #58707d; line-height: 1.6; }
+.layout { display: grid; grid-template-columns: minmax(260px, .75fr) minmax(0, 1.5fr); gap: 20px; }
+.records { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; align-content: start; }
+button, .detail { border: 1px solid #d4ddd7; border-radius: 18px; background: rgba(255,255,255,.76); box-shadow: 0 18px 50px rgba(30,57,49,.07); }
+button { width: 100%; padding: 18px; text-align: left; color: inherit; cursor: pointer; }
+button:hover, button:focus-visible { border-color: #65a28e; outline: 3px solid rgba(101,162,142,.18); }
+button strong, button span { display: block; }
+button span { margin-top: 8px; color: #6a7e87; line-height: 1.45; }
+.detail { min-height: 420px; padding: 30px; }
+pre { white-space: pre-wrap; font: inherit; line-height: 1.65; }
+code { display: block; overflow-wrap: anywhere; color: #6a7e87; font-size: 12px; }
+@media (max-width: 760px) { .layout { grid-template-columns: 1fr; } main { padding-top: 36px; } }
